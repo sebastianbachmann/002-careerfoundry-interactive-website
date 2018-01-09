@@ -193,6 +193,23 @@ p, li {
   color: white;
 }
 
+/* FOOTER */
+
+footer {
+  background-color: yellow;
+}
+
+footer p {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+footer a {
+  display: inline-block;
+  padding-left: 10px;
+  color: white;
+}
+
 /* MEDIA QUERRIES */
 
 @media (max-width: 480px) {
