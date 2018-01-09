@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffeea;
+  color: #34495e;
+  padding-top: 65px;
+  position: relative;
+}
+
+
+.jumbotron {
+  background-image: url("../img/alejandro-escamilla-5-scaled.jpg");
+  padding-top: 65px;
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbotron {
+  color: #202020;
+}
+
+.jumbotron p {
+  color: #202020;
+}
+
+/* NAVIGATION */
+.navbar {
+  top: 0;
+  height: 65px;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+}
+
+#navbar a {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+}
+
+#navbar ul li {
+  /*display: inline-block;*/
+}
+
+
+.navbar-default .navbar-brand {
+  color: white;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* ANCHOR */
+.anchor {
+  padding-top: 50px;
+}
+
+
+/* Carousel */
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.column {
+  display: inline-block;
+  float: left;
+  width: 33.33333333333333%;
+  padding-right: 20px;
+}
+
+.main-text {
+  padding-top: 60px;
+  clear: both;
+}
+
+.image img {
+  width: 100%;
+  position: static;
+}
+
+.skills {
+  background-color: #5AD4C2;
+  color: #FFF;
+}
+
+#skill-list {
+  margin-left: 50px;
+}
+
+/* Typography */
+h1, h2, h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+p, li {
+  font-family: Georgia, sans-serif;
+}
+
+.intro p {
+  font-size: 3em;
+  font-weight: 100;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  -webkit-margin-before: 0;
+}
+
+.skills h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/* CONTACT PAGE */
+
+.column {
+  display: inline-block;
+  float: left;
+  width: 33%;
+  padding-right: 20px;
+}
+
+.location {
+  padding-top: 60px;
+  clear: both;
+}
+
+.location img {
+  width: 50%;
+  position: static;
+}
+
+.offline {
+  color: #000;
+}
+
+#offline-list {
+  margin-left: 200px;
+}
+
+/* Typography */
+h1, h2, h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+p, li {
+  font-family: Georgia, sans-serif;
+}
+
+.online p {
+  font-size: 3em;
+  font-weight: 100;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  -webkit-margin-before: 0;
+}
+
+.offline h2 {
+  text-align: center;
+}
+
+/* IMAGES Responsive */
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background-color: yellow;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+  background-image: url("../img/contact-parallax.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 100px;
+  height: 500px;
+  width: 100%;
+}
+
+#contact .header, a, .glyphicon {
+  color: white;
+}
+
+/* MEDIA QUERRIES */
+
+@media (max-width: 480px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media (max-width: 768px) {
+.navbar-collapse {
+  padding-left: 10px;
+  padding-right: 10px;
+  float: right;
+  border: none;
+  background-color: lightgrey;
+  vertical-align: center;
+}  
+}
