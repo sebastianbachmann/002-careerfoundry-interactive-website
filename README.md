@@ -11,6 +11,13 @@ You have successfully implemented interactive HTML5 elements with semantic tags 
 
 You have installed jQuery plugins for advanced functionality by linking script files in your HTML file, as well as writing JavaScript directly within script tags in your HTML file. Your CSS file is revised for efficiency and organization.
 
+## 2.3 Modal Windows
+
+### Learning Goals
+
+- Implement Bootstrap modal windows of various sizes using links or buttons with user exit strategy
+- Embed an iFrame inside of a modal window and adjust it with CSS
+
 ## 2.2 HTML5 Forms
 
 ### Learning Goals
