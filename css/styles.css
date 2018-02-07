@@ -178,25 +178,27 @@ p, li {
   background-color: yellow;
 }
 
-/* CONTACT SECTION */
+/* VIDEO SECTION */
 
-#contact {
+#video {
   background-image: url("../img/contact-parallax.jpg");
   background-attachment: fixed;
   background-size: cover;
   padding: 100px;
   height: 500px;
   width: 100%;
+  text-align: center;
 }
 
-#contact .header, a, .glyphicon {
+#video .header, a, .glyphicon {
   color: white;
 }
 
 /* FOOTER */
 
 footer {
-  background-color: yellow;
+  height: 200px;
+  background-color: white;
 }
 
 footer p {
@@ -204,11 +206,13 @@ footer p {
   padding-left: 10px;
 }
 
+
 footer a {
+  color: black;
   display: inline-block;
   padding-left: 10px;
-  color: white;
 }
+
 
 /* MEDIA QUERRIES */
 
