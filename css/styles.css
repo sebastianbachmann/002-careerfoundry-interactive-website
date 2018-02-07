@@ -194,6 +194,22 @@ p, li {
   color: white;
 }
 
+/* CONTACT FORM */
+.form-control {
+  width: 100%;
+}
+
+.message-box {
+  width: 100%; 
+  float: left;
+  margin-bottom: 20px;
+}
+
+.contactformbutton {
+  float: right;
+  margin-bottom: 20px;
+}
+
 /* FOOTER */
 
 footer {
