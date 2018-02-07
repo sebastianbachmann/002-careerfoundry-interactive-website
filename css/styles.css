@@ -210,6 +210,21 @@ p, li {
   margin-bottom: 20px;
 }
 
+.learn-more {
+  text-align: right;
+  float: right;
+}
+
+.modal-button {
+  float: right;
+}
+
+#modalembed {
+  height: 500px;
+  width: 100%;
+  padding: 10px;
+}
+
 /* FOOTER */
 
 footer {

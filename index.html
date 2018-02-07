@@ -235,11 +235,24 @@
         </div>
 
         <div class="col-md-4">
-          <h3>More About Me</h3>
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In gravida diam quis nisi mattis hendrerit. Quisque interdum neque nunc. Vestibulum varius a urna at pharetra. In a eros blandit, hendrerit nisl nec, fringilla magna. Duis dignissim accumsan pulvinar. Mauris faucibus justo id laoreet suscipit. In cursus sollicitudin erat vitae imperdiet. Donec ipsum quam, varius vitae pulvinar eleifend, ultrices sit amet eros. Nunc at leo libero. Nunc at risus augue. Nam vel ultrices mauris, at eleifend nunc. In vel ligula maximus, pretium ante efficitur, dictum libero.
-        </p>
-      </div>
+          <h3 class="learn-more">More About Me</h3>
+          <!-- Small modal button -->
+          <button class="btn btn-primary modal-button" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
+          <!-- Small modal -->
+          <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4>Resume</h4>
+                </div>
+                <div class="modal-body">
+                  <embed id="modalembed" src="lebenslauf.pdf">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -313,6 +326,7 @@
     <!-- BOOTSTRAP CORE JS FIlES -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <script src="js/scripts.js"></script>
 
     <!-- SMOOTH SCROLLING -->
