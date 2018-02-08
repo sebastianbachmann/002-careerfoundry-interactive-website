@@ -1,3 +1,4 @@
+/* GLOBAL STYLES */
 * {
   box-sizing: border-box;
 }
@@ -9,20 +10,8 @@ body {
   position: relative;
 }
 
-
-.jumbotron {
-  background-image: url("../img/alejandro-escamilla-5-scaled.jpg");
-  padding-top: 65px;
-  background-position: center;
-  background-size: cover;
-}
-
-.jumbotron {
-  color: #202020;
-}
-
-.jumbotron p {
-  color: #202020;
+.glyphicon {
+  color: black;
 }
 
 /* NAVIGATION */
@@ -40,11 +29,6 @@ body {
   letter-spacing: 0.05em;
   text-decoration: none;
 }
-
-#navbar ul li {
-  /*display: inline-block;*/
-}
-
 
 .navbar-default .navbar-brand {
   color: white;
@@ -124,13 +108,6 @@ p, li {
 
 /* CONTACT PAGE */
 
-.column {
-  display: inline-block;
-  float: left;
-  width: 33%;
-  padding-right: 20px;
-}
-
 .location {
   padding-top: 60px;
   clear: both;
@@ -190,17 +167,16 @@ p, li {
   text-align: center;
 }
 
-#video .header, a, .glyphicon {
+#video .header, a {
   color: white;
 }
 
 /* CONTACT FORM */
-.form-control {
+.form-control, .message-box {
   width: 100%;
 }
 
 .message-box {
-  width: 100%; 
   float: left;
   margin-bottom: 20px;
 }
@@ -215,6 +191,7 @@ p, li {
   float: right;
 }
 
+/* Modalbutton */
 .modal-button {
   float: right;
 }
@@ -223,11 +200,6 @@ p, li {
   height: 500px;
   width: 100%;
   padding: 10px;
-}
-
-/* TOOLTIPS */
-#item1 {
-  color: black;
 }
 
 /* FOOTER */
@@ -251,12 +223,6 @@ footer a {
 
 
 /* MEDIA QUERRIES */
-
-@media (max-width: 480px) {
-  body {
-    background-color: red;
-  }
-}
 
 @media (max-width: 768px) {
 .navbar-collapse {

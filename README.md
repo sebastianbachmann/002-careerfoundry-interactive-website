@@ -11,6 +11,16 @@ You have successfully implemented interactive HTML5 elements with semantic tags 
 
 You have installed jQuery plugins for advanced functionality by linking script files in your HTML file, as well as writing JavaScript directly within script tags in your HTML file. Your CSS file is revised for efficiency and organization.
 
+## 2.5 Better CSS
+
+### Learning Goals
+
+- Refactor CSS code to make it neater, more readable, and more efficient, and discuss why changes have been made to improve the code
+- Write semantic CSS and describe why one should make one's code “semantic” 
+- Abstract out styles for greater modularity and DRYness
+- Eliminate excessive nested styling
+- Professional: utilize outside resources and keep learning as the demands of a project increase, including selecting from various frameworks or style guide
+
 ## 2.3 Modal Windows
 
 ### Learning Goals
