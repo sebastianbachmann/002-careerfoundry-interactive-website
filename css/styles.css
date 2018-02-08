@@ -14,7 +14,7 @@ body {
   color: black;
 }
 
-/* NAVIGATION */
+/* NAVIGATION BAR*/
 .navbar {
   top: 0;
   height: 65px;
@@ -31,7 +31,6 @@ body {
 }
 
 .navbar-default .navbar-brand {
-  color: white;
   text-align: center;
   line-height: 20px;
 }
@@ -40,7 +39,6 @@ body {
 .anchor {
   padding-top: 50px;
 }
-
 
 /* Carousel */
 
@@ -124,15 +122,6 @@ p, li {
 
 #offline-list {
   margin-left: 200px;
-}
-
-/* Typography */
-h1, h2, h3 {
-  font-family: Futura, Helvetica, Arial, sans-serif;
-}
-
-p, li {
-  font-family: Georgia, sans-serif;
 }
 
 .online p {
@@ -232,5 +221,5 @@ footer a {
   border: none;
   background-color: lightgrey;
   vertical-align: center;
-}  
+  }
 }
