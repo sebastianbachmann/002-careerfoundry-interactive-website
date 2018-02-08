@@ -1,3 +1,4 @@
+/* GLOBAL STYLES */
 * {
   box-sizing: border-box;
 }
@@ -9,23 +10,11 @@ body {
   position: relative;
 }
 
-
-.jumbotron {
-  background-image: url("../img/alejandro-escamilla-5-scaled.jpg");
-  padding-top: 65px;
-  background-position: center;
-  background-size: cover;
+.glyphicon {
+  color: black;
 }
 
-.jumbotron {
-  color: #202020;
-}
-
-.jumbotron p {
-  color: #202020;
-}
-
-/* NAVIGATION */
+/* NAVIGATION BAR*/
 .navbar {
   top: 0;
   height: 65px;
@@ -41,13 +30,7 @@ body {
   text-decoration: none;
 }
 
-#navbar ul li {
-  /*display: inline-block;*/
-}
-
-
 .navbar-default .navbar-brand {
-  color: white;
   text-align: center;
   line-height: 20px;
 }
@@ -56,7 +39,6 @@ body {
 .anchor {
   padding-top: 50px;
 }
-
 
 /* Carousel */
 
@@ -124,13 +106,6 @@ p, li {
 
 /* CONTACT PAGE */
 
-.column {
-  display: inline-block;
-  float: left;
-  width: 33%;
-  padding-right: 20px;
-}
-
 .location {
   padding-top: 60px;
   clear: both;
@@ -147,15 +122,6 @@ p, li {
 
 #offline-list {
   margin-left: 200px;
-}
-
-/* Typography */
-h1, h2, h3 {
-  font-family: Futura, Helvetica, Arial, sans-serif;
-}
-
-p, li {
-  font-family: Georgia, sans-serif;
 }
 
 .online p {
@@ -190,17 +156,16 @@ p, li {
   text-align: center;
 }
 
-#video .header, a, .glyphicon {
+#video .header, a {
   color: white;
 }
 
 /* CONTACT FORM */
-.form-control {
+.form-control, .message-box {
   width: 100%;
 }
 
 .message-box {
-  width: 100%; 
   float: left;
   margin-bottom: 20px;
 }
@@ -215,6 +180,7 @@ p, li {
   float: right;
 }
 
+/* Modalbutton */
 .modal-button {
   float: right;
 }
@@ -223,11 +189,6 @@ p, li {
   height: 500px;
   width: 100%;
   padding: 10px;
-}
-
-/* TOOLTIPS */
-#item1 {
-  color: black;
 }
 
 /* FOOTER */
@@ -252,12 +213,6 @@ footer a {
 
 /* MEDIA QUERRIES */
 
-@media (max-width: 480px) {
-  body {
-    background-color: red;
-  }
-}
-
 @media (max-width: 768px) {
 .navbar-collapse {
   padding-left: 10px;
@@ -266,5 +221,5 @@ footer a {
   border: none;
   background-color: lightgrey;
   vertical-align: center;
-}  
+  }
 }
