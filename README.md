@@ -11,6 +11,15 @@ You have successfully implemented interactive HTML5 elements with semantic tags 
 
 You have installed jQuery plugins for advanced functionality by linking script files in your HTML file, as well as writing JavaScript directly within script tags in your HTML file. Your CSS file is revised for efficiency and organization.
 
+## 2.4 Tooltips
+
+### Learning Goals
+
+- Create tooltip as a hover-box on a link or a button
+- Link jQuery plugin that enables tooltips
+- Implement basic jQuery code in their HTML file and describe the logic
+- Design interactive content in About or Work section with tooltips
+
 ## 2.3 Modal Windows
 
 ### Learning Goals
