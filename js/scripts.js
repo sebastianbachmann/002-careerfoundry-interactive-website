@@ -41,6 +41,7 @@ $(function () {
 $("#submitcontactformbutton").on('click', function(){
   var comment = $('.message-box').val();
   $("#visible-comment").html(comment);
+  $(".message-box").hide();
   console.log("Message-Box: "+ comment);
   return false
 });
