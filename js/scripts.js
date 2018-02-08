@@ -16,10 +16,38 @@
   fjs.parentNode.insertBefore(js,fjs);}
   }(document, 'script', 'twitter-wjs');
 
+// jQuerry Stuff
+// SMOOTH SCROLLING
+$(document).ready(function(){
+
+  var $root = $('html, body');
+  $('.navbar-nav a').click(function() {
+    var href = $.attr(this, 'href');
+    if (href != undefined && href != '#') {
+      $root.animate({
+        scrollTop: $(href).offset().top
+      }, 500, function () {
+        window.location.hash = href;
+      });
+    }
+    return false;
+  });
+
 // tooltip
 $(function () {
     $('[data-toggle="tooltip"]').tooltip();
   });
+
+$("#submitcontactformbutton").on('click', function(){
+  var comment = $('.message-box').val();
+  $("#visible-comment").html(comment);
+  console.log("Message-Box: "+ comment);
+  return false
+});
+
+$(".message-box").css("border", "2px solid red");
+
+});
 
 // Form input print to the console
 $("#submitcontactformbutton").on("click", function() {
