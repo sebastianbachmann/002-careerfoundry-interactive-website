@@ -17,8 +17,6 @@
   }(document, 'script', 'twitter-wjs');
 
 // tooltip
-<script>
-  $(function () {
+$(function () {
     $('[data-toggle="tooltip"]').tooltip();
   });
-</script>
