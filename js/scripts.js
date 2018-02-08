@@ -20,3 +20,13 @@
 $(function () {
     $('[data-toggle="tooltip"]').tooltip();
   });
+
+// Form input print to the console
+$("#submitcontactformbutton").on("click", function() {
+    var name = $("#name").val();
+    var email = $("#email").val();
+
+    console.log("Name: " + name);
+    console.log("Email: " + email);
+    return false;
+  });
