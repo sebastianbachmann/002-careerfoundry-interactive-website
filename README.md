@@ -11,9 +11,18 @@ You have successfully implemented interactive HTML5 elements with semantic tags 
 
 You have installed jQuery plugins for advanced functionality by linking script files in your HTML file, as well as writing JavaScript directly within script tags in your HTML file. Your CSS file is revised for efficiency and organization.
 
+## 2.8 Conditional Statements
+
+### Learning Goals
+
+- Console log a variety of functions and events
+- Set variables to variety of data types and JavaScript statements that return different values
+- Chain methods together
+- Write conditional statements
+
 ## 2.7 Introduction to jQuerry
 
-## Learning Goals
+### Learning Goals
 
 - Explain the relationship between DOM and jQuery
 - Name and call basic functions in the console and the DOM
