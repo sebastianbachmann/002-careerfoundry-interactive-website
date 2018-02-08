@@ -11,6 +11,14 @@ You have successfully implemented interactive HTML5 elements with semantic tags 
 
 You have installed jQuery plugins for advanced functionality by linking script files in your HTML file, as well as writing JavaScript directly within script tags in your HTML file. Your CSS file is revised for efficiency and organization.
 
+## 2.6 Introduction to JavaScript
+
+### Learning Goals
+
+- Create new JS file and correctly link it to the HTML file
+- Name and call basic JavaScript functions
+- Discuss JS variables as well as how and why they are used
+
 ## 2.5 Better CSS
 
 ### Learning Goals
