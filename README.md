@@ -11,6 +11,15 @@ You have successfully implemented interactive HTML5 elements with semantic tags 
 
 You have installed jQuery plugins for advanced functionality by linking script files in your HTML file, as well as writing JavaScript directly within script tags in your HTML file. Your CSS file is revised for efficiency and organization.
 
+## 2.10 Object Literals
+
+### Learning Goals
+
+- Create new objects with object literal notation with a variety of properties, including functions, arrays, and other property-value pairs, and update object’s properties 
+- Manipulate data from objects, including accessing properties from and calling methods on objects using dot notation
+- Use the this keyword to refer to the object a function is being called on and select the object’s properties
+- Use IDs to obtain values of an indexed array
+
 ## 2.9 Arrays and More
 
 ### Learning Goals
