@@ -11,6 +11,17 @@ You have successfully implemented interactive HTML5 elements with semantic tags 
 
 You have installed jQuery plugins for advanced functionality by linking script files in your HTML file, as well as writing JavaScript directly within script tags in your HTML file. Your CSS file is revised for efficiency and organization.
 
+## 2.9 Arrays and More
+
+### Learning Goals
+
+- Dynamically generate an overview of your work examples with a for-loop in jQuery
+- Create, access, and iterate through objects in an array
+- Explain the difference between Comparisons (=== and ==) vs. Assignment (=)
+- Use the bang operator (!)
+- Apply modulus to retrieve even numbered values
+- Apply logic to for-loops
+
 ## 2.8 Conditional Statements
 
 ### Learning Goals
