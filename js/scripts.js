@@ -27,20 +27,24 @@ $(document).ready(function(){
       <h2 class="header">'+works[i].title +'</h2>\
         <a href="'+works[i].url+'" class="work-img">\
         <img class="img-responsive" src="'+ works[i].link +'">\
-        </a>\
         <span class="info">\
-        <p>'+works[i].description +'</p>\
+        <p class="desc">'+works[i].description +'</p>\
         </span>\
+        </a>\
       </div>\
     ');
     var images = $('#projects .img-responsive');
     if(i%2 === 0) {
-      $(images[i]).css('border', '7px solid yellow');
+      $(images[i]).css('border', '7px solid #D6DEEF');
     }
     else {
-      $(images[i]).css('border', '7px solid black');
+      $(images[i]).css('border', '7px solid #BACAF1');
     }
   };
+
+  $(".work-img").mouseenter( function() {
+    $(".info", this).show();
+  });
 
   var charCount;
 

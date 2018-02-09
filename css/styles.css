@@ -191,6 +191,12 @@ p, li {
   padding: 10px;
 }
 
+.info {
+  display: none;
+  /*text-decoration: none;*/
+}
+
+
 /* FOOTER */
 
 footer {
