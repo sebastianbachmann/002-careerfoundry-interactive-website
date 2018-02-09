@@ -33,20 +33,28 @@ $(document).ready(function(){
     return false;
   });
 
-// tooltip
-$(function () {
+  // tooltip 
+  $(function () {
     $('[data-toggle="tooltip"]').tooltip();
   });
 
-$("#submitcontactformbutton").on('click', function(){
-  var comment = $('.message-box').val();
-  $("#visible-comment").html(comment);
-  $(".message-box").hide();
-  console.log("Message-Box: "+ comment);
-  return false
-});
+  $("#submitcontactformbutton").on('click', function(){
+    var comment = $('.message-box').val();
+    $("#visible-comment").html(comment);
+    $(".message-box").hide();
+    console.log("Message-Box: "+ comment);
+    return false
+  });
 
-$(".message-box").css("border", "2px solid red");
+  $(".message-box").css("border", "2px solid red");
+
+  $(".message-box").on("keyup", function(){
+    var charCount = $(".message-box").val().length;
+    console.log(charCount);
+    $("#char-count").html(charCount);
+  });
+
+// $("#char-count").html(charCount);
 
 });
 
