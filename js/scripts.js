@@ -20,6 +20,28 @@
 // SMOOTH SCROLLING
 $(document).ready(function(){
 
+//Work section
+  for(var i = 0; i < works.length; ++i ) {
+    $('#projects').append('\
+      <div class="col-sm-6 col-md-3">\
+      <h2 class="header">'+works[i].title +'</h2>\
+        <a href="'+works[i].url+'" class="work-img">\
+        <img class="img-responsive" src="'+ works[i].link +'">\
+        </a>\
+        <span class="info">\
+        <p>'+works[i].description +'</p>\
+        </span>\
+      </div>\
+    ');
+    var images = $('#projects .img-responsive');
+    if(i%2 === 0) {
+      $(images[i]).css('border', '7px solid yellow');
+    }
+    else {
+      $(images[i]).css('border', '7px solid black');
+    }
+  };
+
   var charCount;
 
   var $root = $('html, body');
@@ -50,7 +72,6 @@ $(document).ready(function(){
         $("#visible-comment").hide();
       };
     });
-  // });
 
   $(".message-box").on("keyup", function(){
     charCount = $(".message-box").val().length;
@@ -63,7 +84,6 @@ $(document).ready(function(){
       $("#char-count").css("color", "black");
     };
   });
-});
 
 // Form input print to the console
 $("#submitcontactformbutton").on("click", function() {
@@ -76,3 +96,4 @@ $("#submitcontactformbutton").on("click", function() {
     console.log("Message-Box: " + comment);
     return false;
   });
+});
