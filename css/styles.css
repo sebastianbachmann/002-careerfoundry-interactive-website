@@ -196,6 +196,11 @@ p, li {
   /*text-decoration: none;*/
 }
 
+/* GOOGLE MAP */
+#map {
+  height: 300px;
+}
+
 
 /* FOOTER */
 
@@ -227,5 +232,12 @@ footer a {
   border: none;
   background-color: lightgrey;
   vertical-align: center;
+  }
+}
+
+@media (min-width: 800px) {
+  .googlemap {
+    width: 300px;
+    height: 300px;
   }
 }

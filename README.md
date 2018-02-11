@@ -11,7 +11,17 @@ You have successfully implemented interactive HTML5 elements with semantic tags 
 
 You have installed jQuery plugins for advanced functionality by linking script files in your HTML file, as well as writing JavaScript directly within script tags in your HTML file. Your CSS file is revised for efficiency and organization.
 
-## 2.10 Object Literals
+## 2.11 JavaScript and APIs
+
+### Learning Goals
+
+- Understand how to work with a documentation
+- Understand how data is stored and retrieved using APIs and obtain Google Maps API Keys
+- Nest Google Maps view in a visible div using HTML5 iFrame and Embed API 
+- Insert interactive Google Maps using JavaScript APIv3 with properties
+- Customize Google Maps using external resources and implementing JavaScript
+
+## [2.10 Object Literals](https://github.com/sebastianbachmann/002-careerfoundry-interactive-website/tree/object-literals)
 
 ### Learning Goals
 
@@ -20,7 +30,7 @@ You have installed jQuery plugins for advanced functionality by linking script f
 - Use the this keyword to refer to the object a function is being called on and select the object’s properties
 - Use IDs to obtain values of an indexed array
 
-## 2.9 Arrays and More
+## [2.9 Arrays and More](https://github.com/sebastianbachmann/002-careerfoundry-interactive-website/tree/arrays-and-more)
 
 ### Learning Goals
 
@@ -31,7 +41,7 @@ You have installed jQuery plugins for advanced functionality by linking script f
 - Apply modulus to retrieve even numbered values
 - Apply logic to for-loops
 
-## 2.8 Conditional Statements
+## [2.8 Conditional Statements](https://github.com/sebastianbachmann/002-careerfoundry-interactive-website/tree/conditional-statements)
 
 ### Learning Goals
 
@@ -40,7 +50,7 @@ You have installed jQuery plugins for advanced functionality by linking script f
 - Chain methods together
 - Write conditional statements
 
-## 2.7 Introduction to jQuerry
+## [2.7 Introduction to jQuerry](https://github.com/sebastianbachmann/002-careerfoundry-interactive-website/tree/intro-to-jquerry)
 
 ### Learning Goals
 
@@ -50,7 +60,7 @@ You have installed jQuery plugins for advanced functionality by linking script f
 - Use alerts and console.log to check code
 - Use event listeners
 
-## 2.6 Introduction to JavaScript
+## [2.6 Introduction to JavaScript](https://github.com/sebastianbachmann/002-careerfoundry-interactive-website/tree/intro-to-js)
 
 ### Learning Goals
 
@@ -58,7 +68,7 @@ You have installed jQuery plugins for advanced functionality by linking script f
 - Name and call basic JavaScript functions
 - Discuss JS variables as well as how and why they are used
 
-## 2.5 Better CSS
+## [2.5 Better CSS](https://github.com/sebastianbachmann/002-careerfoundry-interactive-website/tree/better-css)
 
 ### Learning Goals
 
@@ -68,7 +78,7 @@ You have installed jQuery plugins for advanced functionality by linking script f
 - Eliminate excessive nested styling
 - Professional: utilize outside resources and keep learning as the demands of a project increase, including selecting from various frameworks or style guide
 
-## 2.4 Tooltips
+## [2.4 Tooltips](https://github.com/sebastianbachmann/002-careerfoundry-interactive-website/tree/tooltips)
 
 ### Learning Goals
 
@@ -77,14 +87,14 @@ You have installed jQuery plugins for advanced functionality by linking script f
 - Implement basic jQuery code in their HTML file and describe the logic
 - Design interactive content in About or Work section with tooltips
 
-## 2.3 Modal Windows
+## [2.3 Modal Windows](https://github.com/sebastianbachmann/002-careerfoundry-interactive-website/tree/modal-windows)
 
 ### Learning Goals
 
 - Implement Bootstrap modal windows of various sizes using links or buttons with user exit strategy
 - Embed an iFrame inside of a modal window and adjust it with CSS
 
-## 2.2 HTML5 Forms
+## [2.2 HTML5 Forms](https://github.com/sebastianbachmann/002-careerfoundry-interactive-website/tree/html5-forms)
 
 ### Learning Goals
 
@@ -95,7 +105,7 @@ You have installed jQuery plugins for advanced functionality by linking script f
 - Add name attribute
 - Explain backend vs. frontend
 
-## 2.1 Semantic HTML & Footers
+## [2.1 Semantic HTML & Footers](https://github.com/sebastianbachmann/002-careerfoundry-interactive-website/tree/semantic-html-and-footers)
 
 ### Learning Goals
 
